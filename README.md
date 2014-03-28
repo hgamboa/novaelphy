@@ -1,5 +1,4 @@
-<script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 # nova electrophysiology repository
@@ -19,21 +18,8 @@ novaelphy
 7. Sharing 
 
 
-\\( x+1 \\)
-
-
-
-
 ```python
 s = "Python syntax highlighting"
 print s
 ```
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
 
