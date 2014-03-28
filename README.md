@@ -12,7 +12,7 @@ novaelphy
 4. Prepare for bitalino
 5. Real Time analysis
 6. Off line challange
-7. Sharing
+7. Sharing $x_i$ 
 
 
 
