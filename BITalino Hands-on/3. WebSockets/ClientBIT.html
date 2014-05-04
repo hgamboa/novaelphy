@@ -1,0 +1,71 @@
+<html>
+    <script language="javascript" type="text/javascript" src="jquery.js"></script> 
+    <script language="javascript" type="text/javascript" src="jquery.flot.js"></script> 
+    <script type="text/javascript">
+        var ws = new WebSocket("ws://localhost:9001 ");
+
+        var True = true
+        var False = false
+
+        ws.onopen = function() {
+        }; 
+        ws.onmessage = function (e) {
+            msg=e.data.toString()
+            if (msg.indexOf("read")<0) {
+                $("body").html($("body").html()+msg+"<br/>")
+            }
+            eval(e.data)
+        };
+
+        window.onbeforeunload = function() {
+            ws.send("bitalino.close()")
+            ws.send("server.shutdown()");
+            ws.onclose = function () {};
+            ws.close()
+        };
+
+        bitalino=new function() {
+            this.open=function(msg) {
+                if (msg) {
+                     //ws.send("bitalino.version()")
+                     ws.send("bitalino.start([3])")
+                     //ws.send("bitalino.start([0])")
+                }
+            }
+            this.start=function(msg) {
+                ws.send("bitalino.read(250)[-1,:]")
+            }
+            this.read=function(msg) {
+                ws.send("bitalino.read(250)[-1,:]")
+                
+                var d1 = [];
+                for (var i = 0; i < msg.length; i += 1)
+                    d1.push([i, msg[i]]);
+                
+                $.plot($("#placeholder"), [ d1 ], {yaxis: {
+              min:0, max: 1024}});
+            }
+            this.version=function(msg) {}
+            this.stop=function(msg) {}
+            this.close=function(msg) {}
+        }
+
+        server=new function() {
+            this.connected=function(msg) {
+                ws.send("bitalino.open('98:d3:31:b2:12:36', 1000)")
+            }
+        }
+
+        sys=new function() {
+            this.exception=function(msg) {
+                alert(msg.toString());
+            }
+        }
+        
+        
+    </script>
+    <body>
+        <div><h1>BITalinoWS</h1></div>
+	<div id="placeholder" style="width:600px;height:300px;"></div> 
+    </body>
+</html>
