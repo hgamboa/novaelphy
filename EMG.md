@@ -18,9 +18,10 @@ the signal. [1], [3] This is preferred to the more invasive method of insert nee
 
 ###The signal - Image
 
-![EMG signal](/EMG.png)
+![EMG signal](http://produceconsumerobot.com/biosensing/content/gimo32-f3.jpg)
 
-Examples of sEMG signal recorded, during the same contraction, with different spatial filter configurations. [5]
+
+Examples of sEMG signal recorded. [5]
 
 
 ### Characteristics
