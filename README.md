@@ -14,6 +14,7 @@ _novaelphy_
 #### Second Class
 
 0. CloudComputing
+(check ipython notebook directory and [virtualbox guide](virtualbox.md))
 1. Biosignals Characteristics
 * [Electrodermal Activity EDA](EDA.md)
 * [Electromyography EMG](EMG.md)
