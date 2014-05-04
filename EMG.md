@@ -15,6 +15,33 @@ To obtain an EMG signal is necessary to monitor muscle activation. Therefore, tw
 skin over the muscle of interest, in order to measure the difference of potential between them and acquire and amplify 
 the signal. [1], [3] This is preferred to the more invasive method of insert needle electrodes into the muscle. [4]
 
+### Steps
+
+1. Prepare. Remove hair, dead skin and oils using a lightly abrsive
+   and rubbing material with alcool at the electrodes sites. Select a
+   place without muscle int he skin to place the ground electrode. 
+
+
+2. Connect. Place the surfaces on the midline of the belly of with an
+   inter-electrode space of ~2cm oriented paralell to the direction of
+   the muscle fibers.
+  
+3. Acquire. Make some movements. Visualize the signals in open signals
+
+#### Troubleshooting  
+
+* ***baseline shifts***: After each burst a regular EMG signals returns
+to 0. Shifts may occurr if the ground is not used, the surfaces are
+loose or not touching at all.
+
+* ***baseline noise***: Increased baseline noise may appear when the
+detection surfaces touch each other or the skin have not been
+correctly prepared.
+
+* ***ECG artifacts***: when acquiring near the heart ECG bursts may
+contaminate the EMG signal 
+
+
 
 ###The signal - Image
 
