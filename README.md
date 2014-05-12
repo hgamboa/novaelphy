@@ -49,5 +49,6 @@ Links:
 | Students        | Project           | link  |
 | ------------------- |:-------------:| -----:|
 | Débora Pera +  Gonçalo Telo	+ Ana Esteves|Respiration from ECG |    [link](https://github.com/GTelo/ElPhy_ShortProject/blob/master/Report.md)   |
+| Ana Carolina Ramalho +  Cátia Cepeda	+ Duarte Miguel Folgado|FC Measuring|    [link](https://github.com/dmfolgado/Elphy_shortProject/blob/master/projecto.md)   |
 
 
