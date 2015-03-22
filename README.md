@@ -9,7 +9,7 @@ _novaelphy_
 2. Signal Repositories 
  - [http://www.cs.ucr.edu/~eamonn/time_series_data/]
  - physionet 
-3. Collect biosignals examples: http://bit.ly/O8l0T2
+3. Collect biosignals examples: http://bit.ly/1BmZaMX
 
 #### Second Class
 
@@ -48,8 +48,3 @@ Links:
 
 | Students        | Project           | link  |
 | ------------------- |:-------------:| -----:|
-| Débora Pera +  Gonçalo Telo	+ Ana Esteves|Respiration from ECG |    [link](https://github.com/GTelo/ElPhy_ShortProject/blob/master/Report.md)   |
-| Ana Carolina Ramalho +  Cátia Cepeda	+ Duarte Miguel Folgado|FC Measuring|    [link](https://github.com/dmfolgado/Elphy_shortProject/blob/master/projecto.md)   |
-| Luísa Fialho +  Ana Sousa	+ Enrica Leto|ECG noise detector|    [link](https://github.com/luisafialho/ecg_noise_detector)   |
-
-
