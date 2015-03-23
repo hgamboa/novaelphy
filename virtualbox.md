@@ -6,7 +6,7 @@ Virtual box is a machine virtualizer that we will use to set up a box that will 
 
 Download from: [Link](https://www.virtualbox.org/wiki/Downloads)
 
-2. Download the iso from Ubuntu 
+2. Download the iso from Ubuntu (or Lubuntu)
 
 
 3. apt-get install gcc libcurl4-openssl-dev perl
