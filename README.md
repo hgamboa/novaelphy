@@ -8,8 +8,8 @@ _novaelphy_
 
 1. Concepts [Check clip slides]
 2. Biosignals Characteristics
-* [Electrodermal Activity EDA](EDA.md)
-* [Electromyography EMG](EMG.md)
+ * [Electrodermal Activity EDA](EDA.md)
+ * [Electromyography EMG](EMG.md)
 3. Electrostimulation
 4. 
 
