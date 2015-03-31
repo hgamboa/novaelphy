@@ -8,10 +8,14 @@ Download from: [Link](https://www.virtualbox.org/wiki/Downloads)
 
 2. Download the iso from Ubuntu (or Lubuntu)
 
-
-3. apt-get install gcc libcurl4-openssl-dev perl
+3. Open a console and execute
+ * sudo apt-get install gcc libcurl4-openssl-dev perl make 
 
 4. Install wfdb (following link: 
-http://physionet.org/physiotools/wfdb-linux-quick-start.shtml)
+http://physionet.org/physiotools/wfdb-linux-quick-start.shtml) some commands need sudo powers.
 
+5. Test the download of a signals with:
+ * rdsamp -r mitdb/100 >100.txt 
+
+We are asking for the full datset caled 100 on the mitdb to be saved on a local file "100.txt". 
 
