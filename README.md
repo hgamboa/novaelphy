@@ -38,16 +38,4 @@ Links:
 * [OpenSignals](http://bitalino.com)
 * [API](https://github.com/bitalino/bitalino-python)
 
-***Goals of the short project***
 
-1. Know a biosignal
-2. Acquire a biosignal 
-3. Open a bioSignal
-4. View a biosignal
-5. Process a biosignal
-6. Project with a biosignal
-
-
-
-| Students        | Project           | link  |
-| ------------------- |:-------------:| -----:|
