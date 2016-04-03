@@ -10,8 +10,7 @@ _novaelphy_
 2. Biosignals Characteristics
  * [Electrodermal Activity EDA](EDA.md)
  * [Electromyography EMG](EMG.md)
-3. Electrostimulation
-4. 
+3. Classification 
 
 ### Pratical classes
 
@@ -22,7 +21,7 @@ _novaelphy_
 2. Signal Repositories 
  - [http://www.cs.ucr.edu/~eamonn/time_series_data/]
  - physionet 
-3. Collect biosignals examples: http://bit.ly/1BmZaMX
+3. Collect biosignals examples: http://bit.ly/1M8YwyX
 
 
 #### Second Class
