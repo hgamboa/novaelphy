@@ -21,7 +21,7 @@ _novaelphy_
 2. Signal Repositories 
  - [http://www.cs.ucr.edu/~eamonn/time_series_data/]
  - physionet 
-3. Collect biosignals examples: http://bit.ly/1M8YwyX
+3. Collect biosignals examples: http://bit.ly/1M8YwyX using lightwave: http://www.physionet.org/lightwave/
 
 
 #### Second Class
